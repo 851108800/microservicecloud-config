@@ -9,10 +9,12 @@ spring:
   application:
     name: microservicecloud-config-atguigu-dev
 server:
-  port: 3344
+  port: 3355
 
 ---
 spring:
   profiles: test
   application:
     name: microservicecloud-config-atguigu-test
+server:
+  port: 3355
